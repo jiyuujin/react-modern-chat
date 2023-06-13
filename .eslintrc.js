@@ -9,5 +9,8 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     }
-  }
+  },
+  rules: {
+    'react/display-name': 0,
+  },
 }
